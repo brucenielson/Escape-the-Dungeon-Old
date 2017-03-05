@@ -45,3 +45,23 @@ $RECYCLE.BIN/
 Network Trash Folder
 Temporary Items
 .apdisk
+
+
+
+# Ignore all 3rd Party folders
+#Assets/
+Animations/
+Characters
+Decrepit Dungeon LITE/
+Dungeon Creator Kit LITE/
+HTC.UnityPlugin/
+L_FG_Assets_Pack_Lite/
+MORPH3D/
+Standard Assets/
+SteamVR/
+VRBasics/
+Library/
+Temp/
+PyroParticles/
+FantasyMonster/
+VRTK/
