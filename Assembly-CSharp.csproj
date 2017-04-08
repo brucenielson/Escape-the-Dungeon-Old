@@ -49,6 +49,7 @@
      <Compile Include="Assets\Scripts\Archive\BodyCollider.cs" />
      <Compile Include="Assets\Scripts\Archive\ControllerButtons.cs" />
      <Compile Include="Assets\Scripts\Archive\HeadBodyCollision.cs" />
+     <Compile Include="Assets\Scripts\RootMotionScript.cs" />
      <Compile Include="Assets\Scripts\SwordCollision.cs" />
      <Compile Include="Assets\Scripts\chase.cs" />
      <Compile Include="Assets\SteamVR\Extras\SteamVR_GazeTracker.cs" />
@@ -370,6 +371,7 @@
      <None Include="Assets\SteamVR\InteractionSystem\Teleport\Shaders\Highlight.shader" />
      <None Include="Assets\VRTK\Scripts\Internal\Shaders\VRTK_OutlineBasic.shader" />
      <None Include="Assets\VRTK\Scripts\Internal\Shaders\AdaptiveQualityDebugVisualization.shader" />
+     <None Include="Assets\Long Sword with sheath\readme.txt" />
      <None Include="Assets\SteamVR\Resources\SteamVR_SphericalProjection.shader" />
      <None Include="Assets\SteamVR\Resources\SteamVR_AlphaOut.shader" />
      <None Include="Assets\VRTK\Scripts\Internal\Shaders\TransparentFresnelBehind.shader" />
