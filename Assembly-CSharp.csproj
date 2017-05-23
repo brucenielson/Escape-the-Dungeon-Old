@@ -46,6 +46,102 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\L_FG_Assets_Pack_Lite\Standard Assets\Effects\ImageEffects\Scripts\Antialiasing.cs" />
+     <Compile Include="Assets\L_FG_Assets_Pack_Lite\Standard Assets\Effects\ImageEffects\Scripts\Bloom.cs" />
+     <Compile Include="Assets\L_FG_Assets_Pack_Lite\Standard Assets\Effects\ImageEffects\Scripts\BloomAndFlares.cs" />
+     <Compile Include="Assets\L_FG_Assets_Pack_Lite\Standard Assets\Effects\ImageEffects\Scripts\BloomOptimized.cs" />
+     <Compile Include="Assets\L_FG_Assets_Pack_Lite\Standard Assets\Effects\ImageEffects\Scripts\Blur.cs" />
+     <Compile Include="Assets\L_FG_Assets_Pack_Lite\Standard Assets\Effects\ImageEffects\Scripts\BlurOptimized.cs" />
+     <Compile Include="Assets\L_FG_Assets_Pack_Lite\Standard Assets\Effects\ImageEffects\Scripts\CameraMotionBlur.cs" />
+     <Compile Include="Assets\L_FG_Assets_Pack_Lite\Standard Assets\Effects\ImageEffects\Scripts\ColorCorrectionCurves.cs" />
+     <Compile Include="Assets\L_FG_Assets_Pack_Lite\Standard Assets\Effects\ImageEffects\Scripts\ColorCorrectionLookup.cs" />
+     <Compile Include="Assets\L_FG_Assets_Pack_Lite\Standard Assets\Effects\ImageEffects\Scripts\ColorCorrectionRamp.cs" />
+     <Compile Include="Assets\L_FG_Assets_Pack_Lite\Standard Assets\Effects\ImageEffects\Scripts\ContrastEnhance.cs" />
+     <Compile Include="Assets\L_FG_Assets_Pack_Lite\Standard Assets\Effects\ImageEffects\Scripts\ContrastStretch.cs" />
+     <Compile Include="Assets\L_FG_Assets_Pack_Lite\Standard Assets\Effects\ImageEffects\Scripts\CreaseShading.cs" />
+     <Compile Include="Assets\L_FG_Assets_Pack_Lite\Standard Assets\Effects\ImageEffects\Scripts\DepthOfField.cs" />
+     <Compile Include="Assets\L_FG_Assets_Pack_Lite\Standard Assets\Effects\ImageEffects\Scripts\DepthOfFieldDeprecated.cs" />
+     <Compile Include="Assets\L_FG_Assets_Pack_Lite\Standard Assets\Effects\ImageEffects\Scripts\EdgeDetection.cs" />
+     <Compile Include="Assets\L_FG_Assets_Pack_Lite\Standard Assets\Effects\ImageEffects\Scripts\Fisheye.cs" />
+     <Compile Include="Assets\L_FG_Assets_Pack_Lite\Standard Assets\Effects\ImageEffects\Scripts\GlobalFog.cs" />
+     <Compile Include="Assets\L_FG_Assets_Pack_Lite\Standard Assets\Effects\ImageEffects\Scripts\Grayscale.cs" />
+     <Compile Include="Assets\L_FG_Assets_Pack_Lite\Standard Assets\Effects\ImageEffects\Scripts\ImageEffectBase.cs" />
+     <Compile Include="Assets\L_FG_Assets_Pack_Lite\Standard Assets\Effects\ImageEffects\Scripts\ImageEffects.cs" />
+     <Compile Include="Assets\L_FG_Assets_Pack_Lite\Standard Assets\Effects\ImageEffects\Scripts\MotionBlur.cs" />
+     <Compile Include="Assets\L_FG_Assets_Pack_Lite\Standard Assets\Effects\ImageEffects\Scripts\NoiseAndGrain.cs" />
+     <Compile Include="Assets\L_FG_Assets_Pack_Lite\Standard Assets\Effects\ImageEffects\Scripts\NoiseAndScratches.cs" />
+     <Compile Include="Assets\L_FG_Assets_Pack_Lite\Standard Assets\Effects\ImageEffects\Scripts\PostEffectsBase.cs" />
+     <Compile Include="Assets\L_FG_Assets_Pack_Lite\Standard Assets\Effects\ImageEffects\Scripts\PostEffectsHelper.cs" />
+     <Compile Include="Assets\L_FG_Assets_Pack_Lite\Standard Assets\Effects\ImageEffects\Scripts\Quads.cs" />
+     <Compile Include="Assets\L_FG_Assets_Pack_Lite\Standard Assets\Effects\ImageEffects\Scripts\ScreenOverlay.cs" />
+     <Compile Include="Assets\L_FG_Assets_Pack_Lite\Standard Assets\Effects\ImageEffects\Scripts\ScreenSpaceAmbientObscurance.cs" />
+     <Compile Include="Assets\L_FG_Assets_Pack_Lite\Standard Assets\Effects\ImageEffects\Scripts\ScreenSpaceAmbientOcclusion.cs" />
+     <Compile Include="Assets\L_FG_Assets_Pack_Lite\Standard Assets\Effects\ImageEffects\Scripts\SepiaTone.cs" />
+     <Compile Include="Assets\L_FG_Assets_Pack_Lite\Standard Assets\Effects\ImageEffects\Scripts\SunShafts.cs" />
+     <Compile Include="Assets\L_FG_Assets_Pack_Lite\Standard Assets\Effects\ImageEffects\Scripts\TiltShift.cs" />
+     <Compile Include="Assets\L_FG_Assets_Pack_Lite\Standard Assets\Effects\ImageEffects\Scripts\Tonemapping.cs" />
+     <Compile Include="Assets\L_FG_Assets_Pack_Lite\Standard Assets\Effects\ImageEffects\Scripts\Triangles.cs" />
+     <Compile Include="Assets\L_FG_Assets_Pack_Lite\Standard Assets\Effects\ImageEffects\Scripts\Twirl.cs" />
+     <Compile Include="Assets\L_FG_Assets_Pack_Lite\Standard Assets\Effects\ImageEffects\Scripts\VignetteAndChromaticAberration.cs" />
+     <Compile Include="Assets\L_FG_Assets_Pack_Lite\Standard Assets\Effects\ImageEffects\Scripts\Vortex.cs" />
+     <Compile Include="Assets\MORPH3D\Vendor\Unity\Shaders\Hair\HairRenderer.cs" />
+     <Compile Include="Assets\MORPH3D\Vendor\Unity\Shaders\UniqueShadow\UniqueShadow.cs" />
+     <Compile Include="Assets\MORPH3D\Vendor\Unity\Shaders\UniqueShadow\UniqueShadowSun.cs" />
+     <Compile Include="Assets\Procedural-Cave-Generator-master\CaveGeneratorUI.cs" />
+     <Compile Include="Assets\Procedural-Cave-Generator-master\HeightMapVisualizer.cs" />
+     <Compile Include="Assets\Procedural-Cave-Generator-master\Internal\CaveGenerator\Core\HeightMap\HeightMapProperties.cs" />
+     <Compile Include="Assets\Procedural-Cave-Generator-master\Internal\CaveGenerator\Core\HeightMap\Implementations\ConstantHeightMap.cs" />
+     <Compile Include="Assets\Procedural-Cave-Generator-master\Internal\CaveGenerator\Core\HeightMap\Implementations\CustomHeightMap.cs" />
+     <Compile Include="Assets\Procedural-Cave-Generator-master\Internal\CaveGenerator\Core\HeightMap\Implementations\Noise.cs" />
+     <Compile Include="Assets\Procedural-Cave-Generator-master\Internal\CaveGenerator\Core\HeightMap\Implementations\PerlinHeightMap.cs" />
+     <Compile Include="Assets\Procedural-Cave-Generator-master\Internal\CaveGenerator\Core\MapConverter.cs" />
+     <Compile Include="Assets\Procedural-Cave-Generator-master\Internal\CaveGenerator\Core\MapSplitter.cs" />
+     <Compile Include="Assets\Procedural-Cave-Generator-master\Internal\CaveGenerator\Core\Tooltips.cs" />
+     <Compile Include="Assets\Procedural-Cave-Generator-master\Internal\CaveGenerator\Public\Cave\Cave.cs" />
+     <Compile Include="Assets\Procedural-Cave-Generator-master\Internal\CaveGenerator\Public\Cave\CaveConfiguration.cs" />
+     <Compile Include="Assets\Procedural-Cave-Generator-master\Internal\CaveGenerator\Public\Cave\Components\CaveComponent.cs" />
+     <Compile Include="Assets\Procedural-Cave-Generator-master\Internal\CaveGenerator\Public\Cave\Components\Ceiling.cs" />
+     <Compile Include="Assets\Procedural-Cave-Generator-master\Internal\CaveGenerator\Public\Cave\Components\Floor.cs" />
+     <Compile Include="Assets\Procedural-Cave-Generator-master\Internal\CaveGenerator\Public\Cave\Components\Sector.cs" />
+     <Compile Include="Assets\Procedural-Cave-Generator-master\Internal\CaveGenerator\Public\Cave\Components\Walls.cs" />
+     <Compile Include="Assets\Procedural-Cave-Generator-master\Internal\CaveGenerator\Public\CaveGenerator.cs" />
+     <Compile Include="Assets\Procedural-Cave-Generator-master\Internal\CaveGenerator\Public\CollisionTester.cs" />
+     <Compile Include="Assets\Procedural-Cave-Generator-master\Internal\CaveGenerator\Public\HeightMapFactory.cs" />
+     <Compile Include="Assets\Procedural-Cave-Generator-master\Internal\CaveGenerator\Utility\Stopwatch.cs" />
+     <Compile Include="Assets\Procedural-Cave-Generator-master\Internal\CaveGenerator\Utility\Threading.cs" />
+     <Compile Include="Assets\Procedural-Cave-Generator-master\Internal\MapGeneration\Core\Connectivity\ConnectionFinder.cs" />
+     <Compile Include="Assets\Procedural-Cave-Generator-master\Internal\MapGeneration\Core\Connectivity\ConnectionInfo.cs" />
+     <Compile Include="Assets\Procedural-Cave-Generator-master\Internal\MapGeneration\Core\Connectivity\EdgeExtractor.cs" />
+     <Compile Include="Assets\Procedural-Cave-Generator-master\Internal\MapGeneration\Core\Connectivity\MST.cs" />
+     <Compile Include="Assets\Procedural-Cave-Generator-master\Internal\MapGeneration\Core\Connectivity\MapConnector.cs" />
+     <Compile Include="Assets\Procedural-Cave-Generator-master\Internal\MapGeneration\Core\Connectivity\UnionFind.cs" />
+     <Compile Include="Assets\Procedural-Cave-Generator-master\Internal\MapGeneration\Core\GraphSearch\BFS.cs" />
+     <Compile Include="Assets\Procedural-Cave-Generator-master\Internal\MapGeneration\Core\GraphSearch\TileRegion.cs" />
+     <Compile Include="Assets\Procedural-Cave-Generator-master\Internal\MapGeneration\Core\Tooltips.cs" />
+     <Compile Include="Assets\Procedural-Cave-Generator-master\Internal\MapGeneration\Public\Coord.cs" />
+     <Compile Include="Assets\Procedural-Cave-Generator-master\Internal\MapGeneration\Public\Map.cs" />
+     <Compile Include="Assets\Procedural-Cave-Generator-master\Internal\MapGeneration\Public\MapBuilder.cs" />
+     <Compile Include="Assets\Procedural-Cave-Generator-master\Internal\MapGeneration\Public\MapParameters.cs" />
+     <Compile Include="Assets\Procedural-Cave-Generator-master\Internal\MeshGeneration\Core\MarchingSquares\LocalPosition.cs" />
+     <Compile Include="Assets\Procedural-Cave-Generator-master\Internal\MeshGeneration\Core\MarchingSquares\MapTriangulator.cs" />
+     <Compile Include="Assets\Procedural-Cave-Generator-master\Internal\MeshGeneration\Core\MarchingSquares\MarchingSquares.cs" />
+     <Compile Include="Assets\Procedural-Cave-Generator-master\Internal\MeshGeneration\Core\MarchingSquares\WallCache.cs" />
+     <Compile Include="Assets\Procedural-Cave-Generator-master\Internal\MeshGeneration\Core\MeshBuilders\MeshBuilder.cs" />
+     <Compile Include="Assets\Procedural-Cave-Generator-master\Internal\MeshGeneration\Core\MeshBuilders\MeshData.cs" />
+     <Compile Include="Assets\Procedural-Cave-Generator-master\Internal\MeshGeneration\Core\MeshBuilders\WallBuilder.cs" />
+     <Compile Include="Assets\Procedural-Cave-Generator-master\Internal\MeshGeneration\Core\Outline\OutlineGenerator.cs" />
+     <Compile Include="Assets\Procedural-Cave-Generator-master\Internal\MeshGeneration\Public\CaveMeshes.cs" />
+     <Compile Include="Assets\Procedural-Cave-Generator-master\Internal\MeshGeneration\Public\FloorTester.cs" />
+     <Compile Include="Assets\Procedural-Cave-Generator-master\Internal\MeshGeneration\Public\IHeightMap.cs" />
+     <Compile Include="Assets\Procedural-Cave-Generator-master\Internal\MeshGeneration\Public\MeshGenerator.cs" />
+     <Compile Include="Assets\Procedural-Cave-Generator-master\Internal\MeshGeneration\Public\WallGrid.cs" />
+     <Compile Include="Assets\Procedural-Cave-Generator-master\Internal\MeshGeneration\Utility\MeshTangentCalculator.cs" />
+     <Compile Include="Assets\Procedural-Cave-Generator-master\Modules\Heightmaps\Scripts\HeightMapConstant.cs" />
+     <Compile Include="Assets\Procedural-Cave-Generator-master\Modules\Heightmaps\Scripts\HeightMapModule.cs" />
+     <Compile Include="Assets\Procedural-Cave-Generator-master\Modules\Heightmaps\Scripts\HeightMapRocky.cs" />
+     <Compile Include="Assets\Procedural-Cave-Generator-master\Modules\MapGenerators\Scripts\MapGenCellAutomata.cs" />
+     <Compile Include="Assets\Procedural-Cave-Generator-master\Modules\MapGenerators\Scripts\MapGenModule.cs" />
+     <Compile Include="Assets\Procedural-Cave-Generator-master\Modules\Shared\IRandomizable.cs" />
      <Compile Include="Assets\Scripts\Archive\BodyCollider.cs" />
      <Compile Include="Assets\Scripts\Archive\ControllerButtons.cs" />
      <Compile Include="Assets\Scripts\Archive\HeadBodyCollision.cs" />
@@ -364,23 +460,113 @@
      <Compile Include="Assets\VRTK\Scripts\Utilities\VRTK_SharedMethods.cs" />
      <Compile Include="Assets\VRTK\Scripts\Utilities\VRTK_Simulator.cs" />
      <None Include="Assets\VRTK\Version.txt" />
+     <None Include="Assets\L_FG_Assets_Pack_Lite\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BlendOneOne.shader" />
+     <None Include="Assets\L_FG_Assets_Pack_Lite\Standard Assets\Effects\ImageEffects\Shaders\NoiseEffectShaderRGB.shader" />
+     <None Include="Assets\L_FG_Assets_Pack_Lite\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\SeparableWeightedBlurDof34.shader" />
+     <None Include="Assets\L_FG_Assets_Pack_Lite\Standard Assets\Effects\ImageEffects\Shaders\ShowAlphaChannel.shader" />
      <None Include="Assets\SteamVR\Resources\SteamVR_Fade.shader" />
+     <None Include="Assets\MORPH3D\Vendor\Unity\Shaders\Standard\StandardSpecular-doublesided.shader" />
+     <None Include="Assets\L_FG_Assets_Pack_Lite\Standard Assets\Effects\ImageEffects\Shaders\SunShaftsComposite.shader" />
+     <None Include="Assets\MORPH3D\Vendor\Unity\Shaders\Hair\Hair_Universal.shader" />
+     <None Include="Assets\L_FG_Assets_Pack_Lite\Standard Assets\Effects\ImageEffects\Shaders\ColorCorrectionCurves.shader" />
+     <None Include="Assets\L_FG_Assets_Pack_Lite\Standard Assets\Effects\ImageEffects\Shaders\ScreenSpaceAmbientObscurance.shader" />
+     <None Include="Assets\MORPH3D\Vendor\Unity\Shaders\Skin\Volund_UnityStandardCore.cginc" />
      <None Include="Assets\SteamVR\Resources\SteamVR_ClearAll.shader" />
+     <None Include="Assets\L_FG_Assets_Pack_Lite\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\NFAA.shader" />
+     <None Include="Assets\L_FG_Assets_Pack_Lite\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\TiltShiftHdrLensBlur.shader" />
      <None Include="Assets\SteamVR\InteractionSystem\Hints\Shaders\ControllerButtonHints.shader" />
+     <None Include="Assets\L_FG_Assets_Pack_Lite\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\VignetteShader.shader" />
+     <None Include="Assets\L_FG_Assets_Pack_Lite\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\DepthOfFieldScatter.shader" />
+     <None Include="Assets\MORPH3D\Vendor\Unity\Shaders\UniqueShadow\UniqueShadow_ShadowSample.cginc" />
+     <None Include="Assets\RAIN\Editor\Shaders\RAINShader.shader" />
+     <None Include="Assets\L_FG_Assets_Pack_Lite\Standard Assets\Effects\ImageEffects\Shaders\MotionBlur.shader" />
+     <None Include="Assets\L_FG_Assets_Pack_Lite\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\MobileBloom.shader" />
+     <None Include="Assets\MORPH3D\Vendor\Unity\Shaders\Hair\Hair_UnityStandardInput.cginc" />
+     <None Include="Assets\L_FG_Assets_Pack_Lite\Standard Assets\Effects\ImageEffects\Shaders\Contrast Stretch\MinMaxReduction.shader" />
+     <None Include="Assets\L_FG_Assets_Pack_Lite\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\SSAA.shader" />
+     <None Include="Assets\L_FG_Assets_Pack_Lite\Standard Assets\Effects\ImageEffects\Shaders\RadialBlur.shader" />
+     <None Include="Assets\L_FG_Assets_Pack_Lite\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\DepthOfFieldDX11.shader" />
+     <None Include="Assets\L_FG_Assets_Pack_Lite\Standard Assets\Effects\ImageEffects\Shaders\ContrastComposite.shader" />
+     <None Include="Assets\L_FG_Assets_Pack_Lite\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\FXAAPreset3.shader" />
+     <None Include="Assets\L_FG_Assets_Pack_Lite\Standard Assets\Effects\ImageEffects\Shaders\FisheyeShader.shader" />
+     <None Include="Assets\MORPH3D\Resources\Shaders\AlphaCombiner.shader" />
+     <None Include="Assets\L_FG_Assets_Pack_Lite\Standard Assets\Effects\ImageEffects\Shaders\Contrast Stretch\Apply.shader" />
      <None Include="Assets\VRTK\Scripts\Internal\Shaders\UIOverlay.shader" />
      <None Include="Assets\SteamVR\InteractionSystem\Teleport\Shaders\Highlight.shader" />
+     <None Include="Assets\L_FG_Assets_Pack_Lite\Standard Assets\Effects\ImageEffects\Shaders\frag_ao.cginc" />
      <None Include="Assets\VRTK\Scripts\Internal\Shaders\VRTK_OutlineBasic.shader" />
      <None Include="Assets\VRTK\Scripts\Internal\Shaders\AdaptiveQualityDebugVisualization.shader" />
      <None Include="Assets\Long Sword with sheath\readme.txt" />
+     <None Include="Assets\MORPH3D\Vendor\Unity\Shaders\Standard\Standard-doublesided.shader" />
+     <None Include="Assets\L_FG_Assets_Pack_Lite\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\DepthOfField34.shader" />
+     <None Include="Assets\MORPH3D\README.txt" />
+     <None Include="Assets\MORPH3D\Vendor\Unity\Shaders\Standard\Standard-2pass-doublesided-half depth.shader" />
+     <None Include="Assets\RAIN\Editor\ScriptTemplates\BehaviorTreeTemplate.xml" />
+     <None Include="Assets\L_FG_Assets_Pack_Lite\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\MobileBlur.shader" />
+     <None Include="Assets\L_FG_Assets_Pack_Lite\Standard Assets\Effects\ImageEffects\Shaders\SSAOShader.shader" />
+     <None Include="Assets\L_FG_Assets_Pack_Lite\Standard Assets\Effects\ImageEffects\Shaders\ConvertDepth.shader" />
+     <None Include="Assets\L_FG_Assets_Pack_Lite\Standard Assets\Effects\ImageEffects\Shaders\ColorCorrectionCurvesSimple.shader" />
+     <None Include="Assets\L_FG_Assets_Pack_Lite\Standard Assets\Effects\ImageEffects\Shaders\NoiseEffectShaderYUV.shader" />
+     <None Include="Assets\L_FG_Assets_Pack_Lite\Standard Assets\Effects\ImageEffects\Shaders\CreaseApply.shader" />
+     <None Include="Assets\Idle Animations\Idle Package Description.txt" />
+     <None Include="Assets\L_FG_Assets_Pack_Lite\Standard Assets\Effects\ImageEffects\Shaders\ChromaticAberrationShader.shader" />
+     <None Include="Assets\L_FG_Assets_Pack_Lite\Standard Assets\Effects\ImageEffects\Shaders\GlobalFog.shader" />
+     <None Include="Assets\L_FG_Assets_Pack_Lite\Standard Assets\Effects\ImageEffects\Shaders\Contrast Stretch\Luminance.shader" />
+     <None Include="Assets\MORPH3D\Vendor\Unity\Shaders\Standard\Standard-2pass-doublesided.shader" />
+     <None Include="Assets\L_FG_Assets_Pack_Lite\Standard Assets\Effects\ImageEffects\Shaders\ColorCorrectionSelective.shader" />
+     <None Include="Assets\L_FG_Assets_Pack_Lite\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\Bokeh34.shader" />
+     <None Include="Assets\L_FG_Assets_Pack_Lite\Standard Assets\Effects\ImageEffects\Shaders\CameraMotionBlurDX11.shader" />
+     <None Include="Assets\L_FG_Assets_Pack_Lite\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\SeparableBlurPlus.shader" />
+     <None Include="Assets\L_FG_Assets_Pack_Lite\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\MultiPassHollywoodFlares.shader" />
+     <None Include="Assets\L_FG_Assets_Pack_Lite\Standard Assets\Effects\ImageEffects\Shaders\BlurEffectConeTaps.shader" />
+     <None Include="Assets\L_FG_Assets_Pack_Lite\Standard Assets\Effects\ImageEffects\Shaders\CameraMotionBlur.shader" />
+     <None Include="Assets\L_FG_Assets_Pack_Lite\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\DLAA.shader" />
+     <None Include="Assets\MORPH3D\Vendor\Unity\Shaders\Skin\MorphSkinDeferred.shader" />
+     <None Include="Assets\L_FG_Assets_Pack_Lite\Standard Assets\Effects\ImageEffects\Shaders\NoiseAndGrainDX11.shader" />
+     <None Include="Assets\MORPH3D\Resources\Shaders\Morph3DBasicSkin.shader" />
+     <None Include="Assets\L_FG_Assets_Pack_Lite\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BrightPassFilter2.shader" />
+     <None Include="Assets\MORPH3D\Vendor\Unity\Shaders\Skin\Volund_UnityStandardInput.cginc" />
+     <None Include="Assets\MORPH3D\Vendor\Unity\Shaders\Hair\Hair_setup.cginc" />
+     <None Include="Assets\L_FG_Assets_Pack_Lite\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\SeparableBlur.shader" />
+     <None Include="Assets\L_FG_Assets_Pack_Lite\Standard Assets\Effects\ImageEffects\Shaders\MotionBlurClear.shader" />
+     <None Include="Assets\L_FG_Assets_Pack_Lite\Standard Assets\Effects\ImageEffects\Shaders\ColorCorrectionEffect.shader" />
+     <None Include="Assets\L_FG_Assets_Pack_Lite\Standard Assets\Effects\ImageEffects\Shaders\GrayscaleEffect.shader" />
+     <None Include="Assets\L_FG_Assets_Pack_Lite\Standard Assets\Effects\ImageEffects\Shaders\SepiaToneEffect.shader" />
+     <None Include="Assets\L_FG_Assets_Pack_Lite\Standard Assets\Effects\ImageEffects\Shaders\TwirlEffect.shader" />
+     <None Include="Assets\L_FG_Assets_Pack_Lite\Standard Assets\Effects\ImageEffects\Shaders\VortexEffect.shader" />
+     <None Include="Assets\L_FG_Assets_Pack_Lite\Standard Assets\Effects\ImageEffects\Shaders\Contrast Stretch\Adaptation.shader" />
+     <None Include="Assets\L_FG_Assets_Pack_Lite\Standard Assets\Effects\ImageEffects\Shaders\NoiseAndGrain.shader" />
+     <None Include="Assets\L_FG_Assets_Pack_Lite\Standard Assets\Effects\ImageEffects\Shaders\VignettingShader.shader" />
      <None Include="Assets\SteamVR\Resources\SteamVR_SphericalProjection.shader" />
+     <None Include="Assets\L_FG_Assets_Pack_Lite\Standard Assets\Effects\ImageEffects\Shaders\Tonemapper.shader" />
      <None Include="Assets\SteamVR\Resources\SteamVR_AlphaOut.shader" />
+     <None Include="Assets\L_FG_Assets_Pack_Lite\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BrightPassFilter.shader" />
+     <None Include="Assets\L_FG_Assets_Pack_Lite\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\FXAA2.shader" />
+     <None Include="Assets\L_FG_Assets_Pack_Lite\Standard Assets\Effects\ImageEffects\Shaders\ColorCorrection3DLut.shader" />
+     <None Include="Assets\L_FG_Assets_Pack_Lite\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\LensFlareCreate.shader" />
      <None Include="Assets\VRTK\Scripts\Internal\Shaders\TransparentFresnelBehind.shader" />
+     <None Include="Assets\L_FG_Assets_Pack_Lite\Standard Assets\Effects\ImageEffects\Shaders\EdgeDetectNormals.shader" />
      <None Include="Assets\SteamVR\readme.txt" />
+     <None Include="Assets\MORPH3D\Vendor\Unity\Shaders\Hair\Hair_UnityStandardCore.cginc" />
+     <None Include="Assets\L_FG_Assets_Pack_Lite\Standard Assets\Effects\ImageEffects\Shaders\PrepareSunShaftsBlur.shader" />
      <None Include="Assets\SteamVR\InteractionSystem\Core\Shaders\Silhouette.shader" />
+     <None Include="Assets\L_FG_Assets_Pack_Lite\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\Blend.shader" />
+     <None Include="Assets\L_FG_Assets_Pack_Lite\Standard Assets\Effects\ImageEffects\Shaders\BlendModesOverlay.shader" />
      <None Include="Assets\VRTK\Scripts\Internal\Shaders\Unlit_TransparentColor.shader" />
+     <None Include="Assets\MORPH3D\Resources\Shaders\EyeAndLash.shader" />
      <None Include="Assets\SteamVR\Resources\SteamVR_ColorOut.shader" />
      <None Include="Assets\SteamVR\InteractionSystem\Core\Shaders\SeeThru.shader" />
+     <None Include="Assets\L_FG_Assets_Pack_Lite\Standard Assets\Effects\ImageEffects\Shaders\SimpleClear.shader" />
+     <None Include="Assets\L_FG_Assets_Pack_Lite\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\FXAA3Console.shader" />
+     <None Include="Assets\MORPH3D\Vendor\Unity\Shaders\UniqueShadow\UniqueShadow_DepthOnly.shader" />
+     <None Include="Assets\MORPH3D\Vendor\Unity\Shaders\Skin\Volund_StandardSpecularCharacter.shader" />
+     <None Include="Assets\L_FG_Assets_Pack_Lite\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\FXAAPreset2.shader" />
+     <None Include="Assets\L_FG_Assets_Pack_Lite\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BlurAndFlares.shader" />
      <None Include="Assets\SteamVR\InteractionSystem\Readme_InteractionSystem.txt" />
+     <None Include="Assets\L_FG_Assets_Pack_Lite\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BlendForBloom.shader" />
+ <Reference Include="UnityEngine.Advertisements">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll</HintPath>
+ </Reference>
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
@@ -396,8 +582,29 @@
  <Reference Include="UnityEngine.HoloLens">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
  </Reference>
+ <Reference Include="UnityEngine.Purchasing">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityPurchasing/UnityEngine.Purchasing.dll</HintPath>
+ </Reference>
  <Reference Include="UnityEngine.VR">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll</HintPath>
+ </Reference>
+ <Reference Include="ICSharpCode.SharpZipLib">
+ <HintPath>C:/Users/Bruce Nielson/Documents/Escape-the-Dungeon/Assets/MORPH3D/Scripts/Plugins/ICSharpCode.SharpZipLib.dll</HintPath>
+ </Reference>
+ <Reference Include="M3DIMPORT_DLL">
+ <HintPath>C:/Users/Bruce Nielson/Documents/Escape-the-Dungeon/Assets/MORPH3D/Scripts/Plugins/M3DIMPORT_DLL.dll</HintPath>
+ </Reference>
+ <Reference Include="M3D_DLL">
+ <HintPath>C:/Users/Bruce Nielson/Documents/Escape-the-Dungeon/Assets/MORPH3D/Scripts/Plugins/M3D_DLL.dll</HintPath>
+ </Reference>
+ <Reference Include="MCS_Utilities">
+ <HintPath>C:/Users/Bruce Nielson/Documents/Escape-the-Dungeon/Assets/MORPH3D/Scripts/Plugins/MCS_Utilities.dll</HintPath>
+ </Reference>
+ <Reference Include="RAIN">
+ <HintPath>C:/Users/Bruce Nielson/Documents/Escape-the-Dungeon/Assets/RAIN/RAIN.dll</HintPath>
+ </Reference>
+ <Reference Include="RAINMetaform">
+ <HintPath>C:/Users/Bruce Nielson/Documents/Escape-the-Dungeon/Assets/RAIN/RAINMetaform.dll</HintPath>
  </Reference>
  <Reference Include="Mono.Cecil">
  <HintPath>C:/Program Files/Unity/Editor/Data/Managed/Mono.Cecil.dll</HintPath>

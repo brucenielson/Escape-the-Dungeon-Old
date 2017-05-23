@@ -6,10 +6,10 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{DD6B50F3-5224-E87F-EAD5-CD81288F37B1}</ProjectGuid>
+    <ProjectGuid>{2FFBDA1A-61FA-6F44-0794-38D451C90B79}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <AssemblyName>Assembly-CSharp-Editor</AssemblyName>
+    <AssemblyName>Assembly-Boo-Editor</AssemblyName>
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <BaseDirectory>Assets</BaseDirectory>
@@ -46,34 +46,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Editor\SnapGrid.cs" />
-     <Compile Include="Assets\MORPH3D\Content\Packages\Editor\MCSUpgrader.cs" />
-     <Compile Include="Assets\MORPH3D\Scripts\Editor\CIClothingEditor.cs" />
-     <Compile Include="Assets\MORPH3D\Scripts\Editor\M3DCharacterManagerEditor.cs" />
-     <Compile Include="Assets\MORPH3D\Scripts\Editor\M3DMorphEditor.cs" />
-     <Compile Include="Assets\MORPH3D\Scripts\Editor\M3DResourceEditor.cs" />
-     <Compile Include="Assets\MORPH3D\Scripts\Editor\M3DToolsEditor.cs" />
-     <Compile Include="Assets\MORPH3D\Scripts\Editor\MaterialImporter.cs" />
-     <Compile Include="Assets\MORPH3D\Scripts\Editor\MorphDebugInfo.cs" />
-     <Compile Include="Assets\MORPH3D\Scripts\Editor\SearchableWindow.cs" />
-     <Compile Include="Assets\MORPH3D\Vendor\Unity\Shaders\Hair\Editor\HairShaderGUI.cs" />
-     <Compile Include="Assets\MORPH3D\Vendor\Unity\Shaders\Skin\Editor\VolundMultiStandardShaderGUI.cs" />
-     <Compile Include="Assets\Procedural-Cave-Generator-master\Editor\CaveGeneratorEditor.cs" />
-     <Compile Include="Assets\Procedural-Cave-Generator-master\Editor\EditorHelpers.cs" />
-     <Compile Include="Assets\RAIN\Editor\ScriptTemplates\ActionTemplate_CS.cs" />
-     <Compile Include="Assets\RAIN\Editor\ScriptTemplates\DecisionTemplate_CS.cs" />
-     <Compile Include="Assets\SteamVR\Editor\SteamVR_Editor.cs" />
-     <Compile Include="Assets\SteamVR\Editor\SteamVR_Preferences.cs" />
-     <Compile Include="Assets\SteamVR\Editor\SteamVR_RenderModelEditor.cs" />
-     <Compile Include="Assets\SteamVR\Editor\SteamVR_Settings.cs" />
-     <Compile Include="Assets\SteamVR\Editor\SteamVR_SkyboxEditor.cs" />
-     <Compile Include="Assets\SteamVR\Editor\SteamVR_Update.cs" />
-     <Compile Include="Assets\VRTK\Editor\VRTK_AdaptiveQualityEditor.cs" />
-     <Compile Include="Assets\VRTK\Editor\VRTK_EditorUtilities.cs" />
-     <Compile Include="Assets\VRTK\Editor\VRTK_ObjectSetup.cs" />
-     <Compile Include="Assets\VRTK\Editor\VRTK_PolicyListEditor.cs" />
-     <Compile Include="Assets\VRTK\Editor\VRTK_SDKManagerEditor.cs" />
-     <Compile Include="Assets\VRTK\Scripts\Controls\2D\RadialMenu\Editor\RadialMenuInspector.cs" />
+     <Compile Include="Assets\RAIN\Editor\ScriptTemplates\ActionTemplate_BOO.boo" />
+     <Compile Include="Assets\RAIN\Editor\ScriptTemplates\DecisionTemplate_BOO.boo" />
      <None Include="Assets\VRTK\Version.txt" />
      <None Include="Assets\L_FG_Assets_Pack_Lite\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BlendOneOne.shader" />
      <None Include="Assets\L_FG_Assets_Pack_Lite\Standard Assets\Effects\ImageEffects\Shaders\NoiseEffectShaderRGB.shader" />
